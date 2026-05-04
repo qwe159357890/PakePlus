@@ -6,6 +6,7 @@ use tauri::menu::*;
 
 pub fn run() {
     tauri::Builder::default()
+        .plugin(tauri_plugin_notification::init())
         .manage(Arc::new(Mutex::new(ServerState {
             server_handle: None,
         })))
