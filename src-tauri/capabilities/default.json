@@ -7,6 +7,7 @@
         "urls": ["https://*:*", "file://*", "http://*:*", "asset://localhost/*"]
     },
     "permissions": [
+        "notification:default"，
         "core:default",
         "core:window:default",
         "core:app:default",
