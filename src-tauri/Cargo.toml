@@ -5,6 +5,7 @@ description = "Turn any webpage into a desktop app and mobile app with Rust."
 authors = ["1024xiaoshen"]
 edition = "2021"
 
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [lib]
@@ -39,3 +40,5 @@ tauri-plugin-clipboard-manager = "2.0.0"
 tauri-plugin-store = "2.0.0"
 tauri-plugin-process = "2"
 tauri-plugin-updater = { git = "https://github.com/tauri-apps/plugins-workspace", branch = "v2" }
+
+tauri-plugin-notification = "2"
